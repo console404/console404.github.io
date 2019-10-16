@@ -6,4 +6,30 @@ body {
 div.heading {
 	text-align: center;
 	border-radius: 30px;
+	font-size: 40px;
+}
+div.content {
+	font-size: 28px;
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+button {
+	 background-color: #999999;
+	 border: none;
+	 color: black;
+	 text-align: center;
+	 text-decoration: none;
+	 display: inline-block;
+	 font-size: 32px;
+	 padding: 20px;
+	 margin-top: 20px;
+	 margin-bottom: 20px;
+	 transition-property: background-color;
+	 transition-duration: .25s;
+	 font-family: 'Oswald', sans-serif;
+}
+button:hover {
+	background-color: #bfbfbf;
+	cursor: pointer;
 }
