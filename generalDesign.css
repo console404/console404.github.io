@@ -1,7 +1,9 @@
 body {
 	background-image: linear-gradient(-90deg, #404040, #666666, #404040);
 	background-size: auto;
+	font-family: 'Oswald', sans-serif;
 }
-.heading {
+div.heading {
 	text-align: center;
+	border-radius: 30px;
 }
