@@ -1,0 +1,7 @@
+body {
+	background-image: linear-gradient(-90deg, #404040, #666666, #404040);
+	background-size: auto;
+}
+.heading {
+	text-align: center;
+}
