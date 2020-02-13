@@ -1,7 +1,7 @@
-function linkAlertW() {
-    var r = confirm("Do you want to be transferred to Wattpad.com?");
+function linkAlertS() {
+    var r = confirm("Do you want to be transferred to Soundcloud.com?");
     if (r == true) {
-        window.open("https://www.wattpad.com/user/console404");
+        window.open("https://soundcloud.com/console404");
     }
 }
 function linkAlertI() {
