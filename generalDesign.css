@@ -14,6 +14,12 @@ div.content {
 	width: 50%;
 	padding: 10px;
 }
+div.data {
+	font-size: 28px;
+	margin: auto;
+	width: 85%;
+	padding: 10px;
+}
 @media screen and (max-width: 320px) and (max-height: 640px) and (-webkit-device-pixel-ratio: 3) {
 	div.content {
 		width: 12.5%;
@@ -38,3 +44,10 @@ button:hover {
 	background-color: #bfbfbf;
 	cursor: pointer;
 }
+table {
+	font-size: 30px;
+}
+table, th, td {
+	border: 1px solid rgba(116, 116, 116, 50);
+	border-collapse: collapse;
+  }
