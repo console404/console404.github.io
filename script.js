@@ -12,10 +12,9 @@ function linkAlertI() {
 }
 var time = new Date();
 time.setTime(time.getTime() + 24 * 60 * 60 * 1000);
-if (activityCheck != "") {
-    alert("Welcome back!");
-    console.log("alert finished");
+if (name != "") {
+  alert("Welcome to console404, " + name + "!")
+} else {
+  var name = prompt("Please enter your name.");
+	document.cookie = name + ";path=/;secure;expires=" + time.toUTCString();
 }
-document.cookie = "BeenHereRecently=true;path=/;secure;expires=" + time.toUTCString();
-var activityCheck = document.cookie;
-console.log("reached the end");
